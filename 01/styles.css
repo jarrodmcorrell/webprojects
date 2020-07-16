@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#chordlist{
+    font-size: 12px;
+    padding: 30px;
+    height: 520px;
+    background-color: #9F86C0;
+    text-shadow: black;
+    padding-bottom: 100px;
+}
+
+.chord{
+    border: 1px;
+    border-color: #1a1238;
+    background-color: #9F86C0;
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 4px;
+    width: 110px;
+    text-align: center;
+    float: left;
+    color:white;
+}
+
+.chord:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.tle{
+    background-color: #5E548E;
+    margin: 0px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    font-size:30px;
+    color:white;
+    padding: 40px;
+}
+
+.progression{
+    background-color: #08060F;
+    height: 398px;
+    margin: 0px;
+    padding-top:70px;
+    padding-left: 120px;
+}
+
+.ch{
+    background-color: #BE95C4;
+    height: 232px;
+    width: 211.45px;
+    float: left;
+    margin: 11.6px;
+    padding-top: 10px;
+    padding-left: -20px;
+    border: 1px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+

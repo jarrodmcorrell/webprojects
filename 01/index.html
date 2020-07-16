@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type  ="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap" rel="stylesheet">
+    <title>Chord Progression App</title>
+</head>
+<body>
+    <script src="app.js"></script> 
+    <div id = "chordlist">
+        <button class = "chord" onclick="clickFunction(this)" id = "A.png">A</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Asharp.png">Asharp</button>        
+        <button class = "chord" onclick="clickFunction(this)" id = "Asharp4.png">Asharp4</button>      
+        <button class = "chord" onclick="clickFunction(this)" id = "Asharp7.png">Asharp7</button>      
+        <button class = "chord" onclick="clickFunction(this)" id = "Asharpdim.png">Asharpdim</button>  
+        <button class = "chord" onclick="clickFunction(this)" id = "Asharpm.png">Asharpm</button>      
+        <button class = "chord" onclick="clickFunction(this)" id = "Asharpm7.png">Asharpm7</button>    
+        <button class = "chord" onclick="clickFunction(this)" id = "Asharpmaj7.png">Asharpmaj7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "A+.png">A+</button>        
+        <button class = "chord" onclick="clickFunction(this)" id = "A/D.png">A/D</button>      
+        <button class = "chord" onclick="clickFunction(this)" id = "A/Fsharp.png">A/Fsharp</button>    
+        <button class = "chord" onclick="clickFunction(this)" id = "A/Gsharp.png">A/Gsharp</button>    
+        <button class = "chord" onclick="clickFunction(this)" id = "A11.png">A11</button>      
+        <button class = "chord" onclick="clickFunction(this)" id = "A13.png">A13</button>      
+        <button class = "chord" onclick="clickFunction(this)" id = "A4.png">A4</button>        
+        <button class = "chord" onclick="clickFunction(this)" id = "A6.png">A6</button>        
+        <button class = "chord" onclick="clickFunction(this)" id = "A7.png">A7</button>        
+        <button class = "chord" onclick="clickFunction(this)" id = "A7(9+).png">A7(9+)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "A7+.png">A7+</button>      
+        <button class = "chord" onclick="clickFunction(this)" id = "A7sus4.png">A7sus4</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "A9.png">A9</button>        
+        <button class = "chord" onclick="clickFunction(this)" id = "Ab.png">Ab</button>        
+        <button class = "chord" onclick="clickFunction(this)" id = "Ab+.png">Ab+</button>      
+        <button class = "chord" onclick="clickFunction(this)" id = "Ab11.png">Ab11</button>    
+        <button class = "chord" onclick="clickFunction(this)" id = "Ab4.png">Ab4</button>      
+        <button class = "chord" onclick="clickFunction(this)" id = "Ab7.png">Ab7</button>      
+        <button class = "chord" onclick="clickFunction(this)" id = "Abdim.png">Abdim</button>  
+        <button class = "chord" onclick="clickFunction(this)" id = "Abm.png">Abm</button>      
+        <button class = "chord" onclick="clickFunction(this)" id = "Abm7.png">Abm7</button>    
+        <button class = "chord" onclick="clickFunction(this)" id = "Abmaj7.png">Abmaj7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Adim.png">Adim</button>    
+        <button class = "chord" onclick="clickFunction(this)" id = "Am.png">Am</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Am(7sharp).png">Am(7sharp)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Am(add9).png">Am(add9)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Am/G.png">Am/G</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Am6.png">Am6</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Am7.png">Am7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Am7sus4.png">Am7sus4</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Am9.png">Am9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Amaj7.png">Amaj7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Asus.png">Asus</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "B.png">B</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "B(addE).png">B(addE)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "B+.png">B+</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "B/Fsharp.png">B/Fsharp</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "B11.png">B11</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "B11/13.png">B11/13</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "B13.png">B13</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "B4.png">B4</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "B7.png">B7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "B7sharp9.png">B7sharp9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "B7+.png">B7+</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "B9.png">B9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "BaddE/Fsharp.png">BaddE/Fsharp</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Bb+.png">Bb+</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Bb11.png">Bb11</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Bb6.png">Bb6</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Bb9.png">Bb9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Bbm9.png">Bbm9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Bm.png">Bm</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Bm(maj7).png">Bm(maj7)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Bm6.png">Bm6</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Bm7.png">Bm7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Bm7b5.png">Bm7b5</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Bmaj.png">Bmaj</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Bmsus9.png">Bmsus9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "C.png">C</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Csharp.png">Csharp</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Csharp(add9).png">Csharp(add9)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Csharp4.png">Csharp4</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Csharp7.png">Csharp7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Csharpm.png">Csharpm</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Csharpm7.png">Csharpm7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Csharpmaj.png">Csharpmaj</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "C(add9).png">C(add9)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "C/B.png">C/B</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "C11.png">C11</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "C4.png">C4</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "C7.png">C7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "C9.png">C9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "C9(11).png">C9(11)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Cadd2/B.png">Cadd2/B</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Cm.png">Cm</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Cm11.png">Cm11</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Cm7.png">Cm7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Cmaj.png">Cmaj</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Cmaj7.png">Cmaj7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Csus2.png">Csus2</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Csus9.png">Csus9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D.png">D</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dsharp.png">Dsharp</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dsharp4.png">Dsharp4</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dsharp7.png">Dsharp7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dsharpm.png">Dsharpm</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dsharpm7.png">Dsharpm7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dsharpmaj7.png">Dsharpmaj7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D(add9).png">D(add9)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D/A.png">D/A</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D/B.png">D/B</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D/C.png">D/C</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D/Csharp.png">D/Csharp</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D/E.png">D/E</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D/G.png">D/G</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D11.png">D11</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D4.png">D4</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D5/E.png">D5/E</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D6.png">D6</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D7.png">D7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D7sharp9.png">D7sharp9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D7sus2.png">D7sus2</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D7sus4.png">D7sus4</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D9.png">D9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "D9add6.png">D9add6</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dm.png">Dm</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dmsharp7.png">Dmsharp7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dm/A.png">Dm/A</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dm/B.png">Dm/B</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dm/C.png">Dm/C</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dm/Csharp.png">Dm/Csharp</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dm7.png">Dm7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dm9.png">Dm9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dmaj7.png">Dmaj7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Dsus2.png">Dsus2</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "E.png">E</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "E11.png">E11</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "E5.png">E5</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "E6.png">E6</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "E7.png">E7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "E7sharp9.png">E7sharp9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "E7(5b).png">E7(5b)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "E7(b9).png">E7(b9)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "E9.png">E9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Eb(add9).png">Eb(add9)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Em.png">Em</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Em(add9).png">Em(add9)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Em(sus4).png">Em(sus4)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Em/B.png">Em/B</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Em/D.png">Em/D</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Em6.png">Em6</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Em7.png">Em7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Emaj7.png">Emaj7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Esus.png">Esus</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Esus4.png">Esus4</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "F.png">F</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fsharp.png">Fsharp</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fsharp+.png">Fsharp+</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fsharp/E.png">Fsharp/E</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fsharp11.png">Fsharp11</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fsharp4.png">Fsharp4</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fsharp7.png">Fsharp7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fsharp9.png">Fsharp9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fsharpm.png">Fsharpm</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fsharpm6.png">Fsharpm6</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fsharpm7-5.png">Fsharpm7-5</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fsharpmaj.png">Fsharpmaj</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fsharpmaj7.png">Fsharpmaj7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "F(add9).png">F(add9)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "F/A.png">F/A</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "F/C.png">F/C</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "F/G.png">F/G</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "F11.png">F11</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "F4.png">F4</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "F6.png">F6</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "F7.png">F7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "F7/A.png">F7/A</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "F9.png">F9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "FaddG.png">FaddG</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fm.png">Fm</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fm6.png">Fm6</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fm7.png">Fm7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fmaj7.png">Fmaj7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fmaj7(+5).png">Fmaj7(+5)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fmaj7/A.png">Fmaj7/A</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Fmmaj7.png">Fmmaj7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "G.png">G</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Gsharpm6.png">Gsharpm6</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "G(add9).png">G(add9)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "G/A.png">G/A</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "G/B.png">G/B</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "G/D.png">G/D</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "G/Fsharp.png">G/Fsharp</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "G11.png">G11</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "G4.png">G4</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "G6.png">G6</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "G6(sus4).png">G6(sus4)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "G7.png">G7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "G7sharp9.png">G7sharp9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "G7(sus4).png">G7(sus4)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "G9.png">G9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "G9(11).png">G9(11)</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Gm.png">Gm</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Gm/Bb.png">Gm/Bb</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Gm6.png">Gm6</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Gm7.png">Gm7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Gmaj7.png">Gmaj7</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Gmaj7sus4.png">Gmaj7sus4</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Gmaj9.png">Gmaj9</button>
+        <button class = "chord" onclick="clickFunction(this)" id = "Gsus4.png">Gsus4</button>
+    </div>
+
+    <div class="tle">Chord Progression</div>
+
+    <div class="progression">
+
+        <div class="ch" id="1"></div>
+        <div class="ch" id="2"></div>
+        <div class="ch" id="3"></div>
+        <div class="ch" id="4"></div>
+        <div class="ch" id="5"></div>
+        <div class="ch" id="6"></div>
+        <div class="ch" id="7"></div>
+        <div class="ch" id="8"></div>
+
+    </div>
+    
+    <script src="./app.js"></script>
+
+
+</body>
+</html>

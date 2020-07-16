@@ -1,4 +1,4 @@
-"# Chord Progression App"
+Chord Progression App
 
 - React app: Chord progressions
 
