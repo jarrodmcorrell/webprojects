@@ -180,6 +180,12 @@ function clickFunction(id){
     }
 }
 
+var majorchords = [
+    ['C.png', 'G.png', 'Am.png', 'F.png'],
+    ['D.png','A.png','Bm.png','G.png']
+    ['G.png', 'D.png', 'Em.png', 'C.png']
+]
+
 function randomMajorProgression(){
     
 }
