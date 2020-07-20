@@ -182,14 +182,32 @@ function clickFunction(id){
 
 var majorchords = [
     ['C.png', 'G.png', 'Am.png', 'F.png'],
-    ['D.png','A.png','Bm.png','G.png']
-    ['G.png', 'D.png', 'Em.png', 'C.png']
-]
+    ['D.png','A.png','Bm.png','G.png'],
+    ['G.png', 'D.png', 'Em.png', 'C.png'],
+    ['D.png','G.png','Bm.png','A.png'],
+    ['F.png', 'Asharp.png', 'C.png']
+];
 
-function randomMajorProgression(){
-    
+function reload(){
+
+    window.location.hash='reload';
+    window.location.reload();
+
 }
 
-function randomMinorProgression(){
-    
+function randomProgression(){
+    var rand = Math.floor(Math.random() * Math.floor(majorchords.length));
+    for(i = 0; i < majorchords[rand].length; i++){
+        document.getElementById(majorchords[rand][i]).click();  
+    }
 }
+
+document.addEventListener("DOMContentLoaded", function(event){
+    if(window.location.hash=="#reload"){
+        randomProgression();
+    }else{
+        console.log("The page has a new hit");
+    }
+    window.location.hash="";
+});
+
