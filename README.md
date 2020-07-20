@@ -20,4 +20,7 @@ webprojects
         [] Piano Chords
             [] w/Inversions
 
+02 : Random Bullshit Rock paper scissors
+03 : learing canvas stuff
+
 

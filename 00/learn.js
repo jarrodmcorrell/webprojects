@@ -183,6 +183,24 @@ console.log(add(2,3));
     add20(7); // returns 27
 
 
+    //Do Something After Page Refresh
+    function reload(){
+        window.location.hash='reload';
+        window.location.reload();
+    }
+
+    document.addEventListener("DOMContentLoaded", function(event){
+      if(window.location.hash=="#reload"){
+          randomProgression();
+      }else{
+          console.log("The page has a new hit");
+      }
+      window.location.hash="";
+    });
+
+
+
+
 
 
 

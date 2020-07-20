@@ -189,10 +189,8 @@ var majorchords = [
 ];
 
 function reload(){
-
     window.location.hash='reload';
     window.location.reload();
-
 }
 
 function randomProgression(){
